@@ -2,7 +2,7 @@ import google.generativeai as genai
 
 # --- PASTE YOUR API KEY HERE ---
 try:
-    genai.configure(api_key="AIzaSyCwhvBRn7AYkmeUKuKGTEz4sbHyBa8Gicw") 
+    genai.configure(api_key="YOUR_KEY") 
 except Exception as e:
     print(f"Error configuring API key: {e}")
     print("--- \nPlease double-check that your API key is correct and pasted as a string.")
